@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" ignored="0" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="81507" started-at="2021-05-23T14:12:57Z" finished-at="2021-05-23T14:14:18Z">
+    <groups>
+    </groups>
+    <test name="EdgeTest" duration-ms="24596" started-at="2021-05-23T14:12:57Z" finished-at="2021-05-23T14:13:22Z">
+      <class name="FacebookLogin.ValidCredentials">
+        <test-method status="FAIL" signature="setDriver(java.lang.String)[pri:0, instance:FacebookLogin.ValidCredentials@52a86356]" name="setDriver" is-config="true" duration-ms="24106" started-at="2021-05-23T19:42:57Z" finished-at="2021-05-23T19:43:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable
+  (Session info: MicrosoftEdge=90.0.818.66)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN', ip: '192.168.43.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: EdgeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00007FF6D7ED5CB2+4676786]
+	Ordinal0 [0x00007FF6D7B7D503+1168643]
+	Ordinal0 [0x00007FF6D7B6E7C7+1107911]
+	Ordinal0 [0x00007FF6D7B5F4A8+1045672]
+	Ordinal0 [0x00007FF6D7BD3B82+1522562]
+	Ordinal0 [0x00007FF6D7BCF2BF+1503935]
+	Ordinal0 [0x00007FF6D7BA8061+1343585]
+	Ordinal0 [0x00007FF6D7BA918B+1347979]
+	Ordinal0 [0x00007FF6D7C50121+2031905]
+	Ordinal0 [0x00007FF6D7C1C73E+1820478]
+	Ordinal0 [0x00007FF6D7DF3224+3748388]
+	Ordinal0 [0x00007FF6D7C1D10E+1822990]
+	Ordinal0 [0x00007FF6D7EE8874+4753524]
+	Ordinal0 [0x00007FF6D7EE8174+4751732]
+	Ordinal0 [0x00007FF6D7EE7FBA+4751290]
+	Ordinal0 [0x00007FF6D7EBFFD8+4587480]
+	BaseThreadInitThunk [0x00007FFBF3A27034+20]
+	RtlUserThreadStart [0x00007FFBF5562651+33]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: MicrosoftEdge=90.0.818.66)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN', ip: '192.168.43.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: EdgeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00007FF6D7ED5CB2+4676786]
+	Ordinal0 [0x00007FF6D7B7D503+1168643]
+	Ordinal0 [0x00007FF6D7B6E7C7+1107911]
+	Ordinal0 [0x00007FF6D7B5F4A8+1045672]
+	Ordinal0 [0x00007FF6D7BD3B82+1522562]
+	Ordinal0 [0x00007FF6D7BCF2BF+1503935]
+	Ordinal0 [0x00007FF6D7BA8061+1343585]
+	Ordinal0 [0x00007FF6D7BA918B+1347979]
+	Ordinal0 [0x00007FF6D7C50121+2031905]
+	Ordinal0 [0x00007FF6D7C1C73E+1820478]
+	Ordinal0 [0x00007FF6D7DF3224+3748388]
+	Ordinal0 [0x00007FF6D7C1D10E+1822990]
+	Ordinal0 [0x00007FF6D7EE8874+4753524]
+	Ordinal0 [0x00007FF6D7EE8174+4751732]
+	Ordinal0 [0x00007FF6D7EE7FBA+4751290]
+	Ordinal0 [0x00007FF6D7EBFFD8+4587480]
+	BaseThreadInitThunk [0x00007FFBF3A27034+20]
+	RtlUserThreadStart [0x00007FFBF5562651+33]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:141)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:96)
+	at Setup.DriverSetup.blah(DriverSetup.java:23)
+	at FacebookLogin.ValidCredentials.setDriver(ValidCredentials.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="SKIP" signature="titleVerify(java.lang.String)[pri:1, instance:FacebookLogin.ValidCredentials@52a86356]" name="titleVerify" duration-ms="1" started-at="2021-05-23T19:43:21Z" finished-at="2021-05-23T19:43:21Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable
+  (Session info: MicrosoftEdge=90.0.818.66)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN', ip: '192.168.43.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: EdgeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00007FF6D7ED5CB2+4676786]
+	Ordinal0 [0x00007FF6D7B7D503+1168643]
+	Ordinal0 [0x00007FF6D7B6E7C7+1107911]
+	Ordinal0 [0x00007FF6D7B5F4A8+1045672]
+	Ordinal0 [0x00007FF6D7BD3B82+1522562]
+	Ordinal0 [0x00007FF6D7BCF2BF+1503935]
+	Ordinal0 [0x00007FF6D7BA8061+1343585]
+	Ordinal0 [0x00007FF6D7BA918B+1347979]
+	Ordinal0 [0x00007FF6D7C50121+2031905]
+	Ordinal0 [0x00007FF6D7C1C73E+1820478]
+	Ordinal0 [0x00007FF6D7DF3224+3748388]
+	Ordinal0 [0x00007FF6D7C1D10E+1822990]
+	Ordinal0 [0x00007FF6D7EE8874+4753524]
+	Ordinal0 [0x00007FF6D7EE8174+4751732]
+	Ordinal0 [0x00007FF6D7EE7FBA+4751290]
+	Ordinal0 [0x00007FF6D7EBFFD8+4587480]
+	BaseThreadInitThunk [0x00007FFBF3A27034+20]
+	RtlUserThreadStart [0x00007FFBF5562651+33]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: MicrosoftEdge=90.0.818.66)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN', ip: '192.168.43.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: EdgeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00007FF6D7ED5CB2+4676786]
+	Ordinal0 [0x00007FF6D7B7D503+1168643]
+	Ordinal0 [0x00007FF6D7B6E7C7+1107911]
+	Ordinal0 [0x00007FF6D7B5F4A8+1045672]
+	Ordinal0 [0x00007FF6D7BD3B82+1522562]
+	Ordinal0 [0x00007FF6D7BCF2BF+1503935]
+	Ordinal0 [0x00007FF6D7BA8061+1343585]
+	Ordinal0 [0x00007FF6D7BA918B+1347979]
+	Ordinal0 [0x00007FF6D7C50121+2031905]
+	Ordinal0 [0x00007FF6D7C1C73E+1820478]
+	Ordinal0 [0x00007FF6D7DF3224+3748388]
+	Ordinal0 [0x00007FF6D7C1D10E+1822990]
+	Ordinal0 [0x00007FF6D7EE8874+4753524]
+	Ordinal0 [0x00007FF6D7EE8174+4751732]
+	Ordinal0 [0x00007FF6D7EE7FBA+4751290]
+	Ordinal0 [0x00007FF6D7EBFFD8+4587480]
+	BaseThreadInitThunk [0x00007FFBF3A27034+20]
+	RtlUserThreadStart [0x00007FFBF5562651+33]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:141)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:96)
+	at Setup.DriverSetup.blah(DriverSetup.java:23)
+	at FacebookLogin.ValidCredentials.setDriver(ValidCredentials.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleVerify -->
+        <test-method status="SKIP" signature="enterValues(java.lang.String, java.lang.String)[pri:2, instance:FacebookLogin.ValidCredentials@52a86356]" name="enterValues" duration-ms="0" started-at="2021-05-23T19:43:21Z" finished-at="2021-05-23T19:43:21Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable
+  (Session info: MicrosoftEdge=90.0.818.66)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN', ip: '192.168.43.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: EdgeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00007FF6D7ED5CB2+4676786]
+	Ordinal0 [0x00007FF6D7B7D503+1168643]
+	Ordinal0 [0x00007FF6D7B6E7C7+1107911]
+	Ordinal0 [0x00007FF6D7B5F4A8+1045672]
+	Ordinal0 [0x00007FF6D7BD3B82+1522562]
+	Ordinal0 [0x00007FF6D7BCF2BF+1503935]
+	Ordinal0 [0x00007FF6D7BA8061+1343585]
+	Ordinal0 [0x00007FF6D7BA918B+1347979]
+	Ordinal0 [0x00007FF6D7C50121+2031905]
+	Ordinal0 [0x00007FF6D7C1C73E+1820478]
+	Ordinal0 [0x00007FF6D7DF3224+3748388]
+	Ordinal0 [0x00007FF6D7C1D10E+1822990]
+	Ordinal0 [0x00007FF6D7EE8874+4753524]
+	Ordinal0 [0x00007FF6D7EE8174+4751732]
+	Ordinal0 [0x00007FF6D7EE7FBA+4751290]
+	Ordinal0 [0x00007FF6D7EBFFD8+4587480]
+	BaseThreadInitThunk [0x00007FFBF3A27034+20]
+	RtlUserThreadStart [0x00007FFBF5562651+33]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: MicrosoftEdge=90.0.818.66)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN', ip: '192.168.43.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
+Driver info: driver.version: EdgeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00007FF6D7ED5CB2+4676786]
+	Ordinal0 [0x00007FF6D7B7D503+1168643]
+	Ordinal0 [0x00007FF6D7B6E7C7+1107911]
+	Ordinal0 [0x00007FF6D7B5F4A8+1045672]
+	Ordinal0 [0x00007FF6D7BD3B82+1522562]
+	Ordinal0 [0x00007FF6D7BCF2BF+1503935]
+	Ordinal0 [0x00007FF6D7BA8061+1343585]
+	Ordinal0 [0x00007FF6D7BA918B+1347979]
+	Ordinal0 [0x00007FF6D7C50121+2031905]
+	Ordinal0 [0x00007FF6D7C1C73E+1820478]
+	Ordinal0 [0x00007FF6D7DF3224+3748388]
+	Ordinal0 [0x00007FF6D7C1D10E+1822990]
+	Ordinal0 [0x00007FF6D7EE8874+4753524]
+	Ordinal0 [0x00007FF6D7EE8174+4751732]
+	Ordinal0 [0x00007FF6D7EE7FBA+4751290]
+	Ordinal0 [0x00007FF6D7EBFFD8+4587480]
+	BaseThreadInitThunk [0x00007FFBF3A27034+20]
+	RtlUserThreadStart [0x00007FFBF5562651+33]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:141)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:96)
+	at Setup.DriverSetup.blah(DriverSetup.java:23)
+	at FacebookLogin.ValidCredentials.setDriver(ValidCredentials.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:626)
+	at org.testng.TestRunner.run(TestRunner.java:594)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterValues -->
+        <test-method status="FAIL" signature="driverQuit()[pri:0, instance:FacebookLogin.ValidCredentials@52a86356]" name="driverQuit" is-config="true" duration-ms="1" started-at="2021-05-23T19:43:21Z" finished-at="2021-05-23T19:43:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Setup.DriverSetup.driverQuit(DriverSetup.java:36)
+	at FacebookLogin.ValidCredentials.driverQuit(ValidCredentials.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.TestRunner.afterRun(TestRunner.java:958)
+	at org.testng.TestRunner.run(TestRunner.java:606)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+      </class> <!-- FacebookLogin.ValidCredentials -->
+    </test> <!-- EdgeTest -->
+    <test name="ChromeTest" duration-ms="81507" started-at="2021-05-23T14:12:57Z" finished-at="2021-05-23T14:14:18Z">
+      <class name="FacebookLogin.ValidCredentials">
+        <test-method status="PASS" signature="setDriver(java.lang.String)[pri:0, instance:FacebookLogin.ValidCredentials@4b952a2d]" name="setDriver" is-config="true" duration-ms="59371" started-at="2021-05-23T19:42:57Z" finished-at="2021-05-23T19:43:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="titleVerify(java.lang.String)[pri:1, instance:FacebookLogin.ValidCredentials@4b952a2d]" name="titleVerify" duration-ms="1579" started-at="2021-05-23T19:43:56Z" finished-at="2021-05-23T19:43:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ChromeInput]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleVerify -->
+        <test-method status="PASS" signature="enterValues(java.lang.String, java.lang.String)[pri:2, instance:FacebookLogin.ValidCredentials@4b952a2d]" name="enterValues" duration-ms="12715" started-at="2021-05-23T19:43:58Z" finished-at="2021-05-23T19:44:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email@gmailcom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[emailfdgmailcom]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterValues -->
+        <test-method status="PASS" signature="driverQuit()[pri:0, instance:FacebookLogin.ValidCredentials@4b952a2d]" name="driverQuit" is-config="true" duration-ms="7821" started-at="2021-05-23T19:44:11Z" finished-at="2021-05-23T19:44:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverQuit -->
+      </class> <!-- FacebookLogin.ValidCredentials -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

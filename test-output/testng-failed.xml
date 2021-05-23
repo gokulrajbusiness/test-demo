@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="pass" value="emailfdgmailcom"/>
+  <parameter name="email" value="email@gmailcom"/>
+  <listeners>
+    <listener class-name="Setup.TestListener"/>
+  </listeners>
+  <test name="EdgeTest(failed)" parallel="tests">
+    <parameter name="browser" value="Edge"/>
+    <parameter name="time" value="EdgeInput"/>
+    <classes>
+      <class name="FacebookLogin.ValidCredentials">
+        <methods>
+          <include name="setDriver"/>
+          <include name="titleVerify"/>
+          <include name="driverQuit"/>
+          <include name="enterValues"/>
+        </methods>
+      </class> <!-- FacebookLogin.ValidCredentials -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

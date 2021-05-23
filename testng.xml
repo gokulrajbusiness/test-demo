@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	<listeners>
+		<listener class-name="Setup.TestListener"></listener>
+	</listeners>
+	<parameter name="email" value="email@gmailcom" />
+	<parameter name="pass" value="emailfdgmailcom" />
+	<test thread-count="4" name="ChromeTest">
+		<parameter name="browser" value="Chrome" />
+		<parameter name="time" value="ChromeInput" />
+		<classes>
+			<class name="FacebookLogin.ValidCredentials"></class>
+		</classes>
+	</test>
+	<test thread-count="4" name="EdgeTest">
+		<parameter name="browser" value="Edge" />
+        <parameter name="time" value="EdgeInput" />
+		<classes>
+			<class name="FacebookLogin.ValidCredentials"></class>
+		</classes>
+	</test>
+</suite> <!-- Suite -->
